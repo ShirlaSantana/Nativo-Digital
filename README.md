@@ -16,9 +16,6 @@ CRUD para alta de pacientes de un hospital que conforma la prueba técnica para 
 npm install
 ```
 ```
-npx prisma init --datasource-provider mysql
-```
-```
 npx prisma migrate dev --name init
 ```
 npm run dev
