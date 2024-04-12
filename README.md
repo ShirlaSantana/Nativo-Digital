@@ -18,6 +18,7 @@ npm run dev
 ### Base de datos
 1. Para instalar la base de datos necesita tener instalado [mysql](https://www.mysql.com/downloads/)
 2. Ejecutar el [script](./database/hospital.sql) de creación de registros de hospital para llenar la base de datos con información de prueba.
+3. Ejecutar el [script](./database/patient.sql) de creación de registros de paceinte para llenar la base de datos con información de prueba.
 >Nota: Si es necesario, modifique el nombre o la contraseña del usuario de la base de datos en el archivo [env](./backend/.env) 
 
 ### Frontend
