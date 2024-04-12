@@ -1,0 +1,2 @@
+INSERT INTO hospitalDB.Patient (id,name,last_name, second_surname,sex,birthDate,cityOfOrigin,enrollmentDate, guardianFullName, guardianPhone, IDHospital) VALUES
+	 (1,'Shirla','Santana', 'Perez', 'F', '2020-09-29', 'MERIDA', '2024-04-05', 'Claudina Perez', '9995778458', 1);
