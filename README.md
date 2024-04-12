@@ -11,14 +11,20 @@ CRUD para alta de pacientes de un hospital que conforma la prueba técnica para 
 ### Backend
 1. Para poder ejecutar correctamente el servidor necesita tener instalado [node.js](https://nodejs.org/es/).
 2. Entrar a la carpeta backend y abrir la línea de comandos.
-3. Ejecutar los siguientes comandos: 
+3. Ejecutar los siguientes comandos:
+```  
 npm install
+```
 npx prisma init --datasource-provider mysql
+```
 npx prisma migrate dev --name init
+```
 npm run dev
 
 ### Frontend
 1. Entrar a la carpeta frontend y abrir la línea de comandos.
 2. Ejecutar el comando:
+```
 npm run dev
-3. En el navegador, entrar a la siguiente ruta: [localhost:3001](http://localhost:3001)
+```
+4. En el navegador, entrar a la siguiente ruta: [localhost:3001](http://localhost:3001)
