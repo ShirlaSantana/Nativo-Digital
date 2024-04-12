@@ -5,8 +5,7 @@ const getPatients = async() => {
         const response = await axios.get(`http://localhost:3000/api/patients`);
         return (response.data);
     } catch (error) {
-        console.error('Error:', error);
-        throw error;
+        console.error('Aun no hay pacientes registrados');
     }
 }
 
